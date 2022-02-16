@@ -4,7 +4,7 @@ import Chips from "./Chips";
 import Drink from "./Drink";
 import NavBar from "./NavBar";
 
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { BrowserRouter, Route, NavLink } from "react-router-dom";
 
 function App() {
   return (
