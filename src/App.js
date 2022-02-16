@@ -11,8 +11,9 @@ function App() {
     <main className="App">
       <BrowserRouter>
       <nav>
-        <Link to="/Drink">Drink</Link>
-        <Link to="/Chips">Chips</Link>
+        <NavLink to="/">Vending Machine</NavLink>
+        <NavLink to="/Drink">Drink</NavLink>
+        <NavLink to="/Chips">Chips</NavLink>
       </nav>
         <NavBar />
         <Route exact path="/Drink">
